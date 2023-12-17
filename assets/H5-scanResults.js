@@ -9,7 +9,7 @@ $(".leanFile").click(function () {
     leanFile(notaryId,notaCode);
 })
 //全文点击事件
-$(".pdfFile").click(function () {
+$(".pdfFile1").click(function () {
     $(this).find("div").addClass("active");
     $(this).siblings().find("div").removeClass("active");
     /*  $("#pdfContent").removeClass("hide");
@@ -345,6 +345,20 @@ function pdfFile() {
 }
 
 function pdfFile1() {
+    var path="/（2023）京中信内民证字第00756号.pdf";
+    // console.log(path);
+    // console.log(datas.data.path);
+    window.open(path,"_top");
+}
+
+function pdfFile2() {
+    var path="/（2023）京中信内民证字第00756号.pdf";
+    // console.log(path);
+    // console.log(datas.data.path);
+    window.open(path,"_top");
+}
+
+function pdfFile3() {
     var path="/（2023）京中信内民证字第00756号.pdf";
     // console.log(path);
     // console.log(datas.data.path);
