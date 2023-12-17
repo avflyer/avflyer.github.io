@@ -1,0 +1,126 @@
+/*h5  扫描二维码的结果*/
+body{
+    min-width: auto !important;
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.fz30{
+    font-size: 30px;
+}
+.hide{
+    display: none!important;
+}
+.module-box{
+    width: 100%;
+}
+#tab{
+    overflow: hidden;
+    height: 6rem;
+    line-height: 6rem;
+    color: rgb(56,56,56);
+    display: flex;
+    text-align: center;
+    font-size: 1.45rem;
+}
+
+.tab{
+    flex-grow:2;
+    color: rgb(56,56,56);
+    /*display: inline-block;*/
+}
+.bigtitle{
+    font-size: 1.6rem;
+    font-weight: 600;
+    display: block;
+    margin-top: 18px;
+}
+#content{
+    /*width: 100%;*/
+    text-align: center;
+    margin: 15px 20px;
+    border:1px solid #aaa;
+}
+.e-cert-content{
+    text-align: left;
+}
+.e-cert-content{
+    overflow: hidden;
+    margin: 2rem auto;
+    color: #757575;
+    padding: 0 2rem;
+}
+.e-cert-content li{
+    width: 100%;
+    display: flex;
+    line-height: 30px;
+}
+.e-cert-key{
+    width: 30%;
+    text-align: left;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    color:#333;
+    font-weight:500;
+}
+.e-cert-value{
+    width: 70%;
+    text-align: right;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    color:#97969A;
+    font-weight:500;
+}
+.underline{
+    border-bottom:1px dashed #0078fd;
+    margin:10px 0;
+}
+#tab .tab:hover{
+    cursor:pointer;
+}
+.tab div.active{
+    color: #3072ff;
+    border-bottom: 2px solid #3072ff;
+    padding: 1rem 0;
+    display: inline;
+}
+.leanFile::after{
+    content: "|";
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 50%;
+    color: #ddd;
+}
+.nota_code{
+    color:#97969A
+}
+.footer{
+    text-align: left;
+    margin: 0 1.5rem;
+}
+.footer p{
+    padding: 0.5rem;
+}
+.hash{
+    color:#757575;
+}
+.data_hash{
+    color:#3072ff;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.rgb181{
+    color:rgb(181,181,182);
+}
+#pdfContent,.pdfContent{
+    padding: 1rem 2rem;
+    width: 100%;
+}
