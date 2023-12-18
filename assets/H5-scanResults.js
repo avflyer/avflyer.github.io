@@ -17,6 +17,22 @@ $(".pdfFile1").click(function () {
     pdfFile1();
 });
 
+$(".pdfFile2").click(function () {
+    $(this).find("div").addClass("active");
+    $(this).siblings().find("div").removeClass("active");
+    /*  $("#pdfContent").removeClass("hide");
+      $("#content").addClass("hide");*/
+    pdfFile2();
+});
+
+$(".pdfFile3").click(function () {
+    $(this).find("div").addClass("active");
+    $(this).siblings().find("div").removeClass("active");
+    /*  $("#pdfContent").removeClass("hide");
+      $("#content").addClass("hide");*/
+    pdfFile3();
+});
+
 //精简版数据
 function leanFile(id,notaCode) {
     if(notaCode != ""){
@@ -352,14 +368,14 @@ function pdfFile1() {
 }
 
 function pdfFile2() {
-    var path="/（2023）京中信内民证字第00756号.pdf";
+    var path="/（2023）京中信内民证字第00757号.pdf";
     // console.log(path);
     // console.log(datas.data.path);
     window.open(path,"_top");
 }
 
 function pdfFile3() {
-    var path="/（2023）京中信内民证字第00756号.pdf";
+    var path="/（2023）京中信内民证字第00755号.pdf";
     // console.log(path);
     // console.log(datas.data.path);
     window.open(path,"_top");
